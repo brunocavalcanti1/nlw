@@ -1,0 +1,56 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+    
+}
+
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#modal.point h1 {
+    color: white;
+    margin-top: 32px;
+}
+
+
+
+
+
+
+
+
+/* BOX MODEL 
+Model de caixa
+Toda caixa tem 
+Largura, altura, espaçamentos, preenchimentos
+bordas, cor, fundo, maneira que é vista pelo html (display),
+Posicionamento, alimentos
+
+*/
